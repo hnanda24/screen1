@@ -12,7 +12,7 @@ export const LeftBody = () => {
         <div className='left flex justify-center items-center flex-col'>
             {btnData.map((val) => {
               return <div className='flex flex-col justify-center items-center gap-2'>  
-                <button className='flex shadow-lg p-2 rounded-md w-full'>
+                <button className='flex shadow-lg p-2 rounded-md w-full gap-1 items-center'>
                 <img src={val.img} />
                 <span className=''>{val.text}</span>
                 </button>

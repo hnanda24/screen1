@@ -34,7 +34,7 @@ const MenuBar = () => {
                         <div className='text-white text-[15px]'>{value.text}</div>
                     </div>
                 })}
-                <hr className='opacity-45'/>
+                <hr className= 'w-full opacity-45'/>
                 {data2.map((value) => {
                     return <div key={value.text} className='flex gap-3 opacity-45 w-[50%]'>
                         <img src={value.img} />
